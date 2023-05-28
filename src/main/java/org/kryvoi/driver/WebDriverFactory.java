@@ -54,6 +54,7 @@ public class WebDriverFactory {
             System.out.println("This driver is not supported. Please use: chrome, firefox, edge, safari");
             System.exit(-1);
         }
+        int a;
         return initDriver(webDriverType);
     }
 }
